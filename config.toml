@@ -1,0 +1,76 @@
+# baseurl = "http://www.example.com"
+title = "Pavan bhat"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+disqusShortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Pavan Bhat"
+  info = "Salesforce Developer 🌩 "
+  description = "Pavan Bhat's personal website"
+  keywords = "blog,developer,personal"
+  avatarurl = "images/avatar.jpeg"
+  #gravatar = "john.doe@example.com"
+
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/pavanbhat1999"
+[[params.social]]
+  name = "Gitlab"
+  icon = "fa fa-gitlab fa-2x"
+  weight = 2
+  url = "https://gitlab.com/pavanbhat1999/"
+[[params.social]]
+  name = "Reddit"
+  icon = "fa fa-reddit fa-2x"
+  weight = 3
+  url = "https://www.reddit.com/user/Final_Chip860"
+[[params.social]]
+  name = "Email"
+  icon = "fa fa-envelope fa-2x"
+  weight = 3
+  url = "mailto:%20prbhat07@gmail.com"
+
+# Menu links
+[[menu.main]]
+  name = "About"
+  url = "about/"
+[[menu.main]]
+  name = "Blog"
+  url  = "posts/"
+[[menu.main]]
+    name = "Projects"
+    url = "projects/"
+[[menu.main]]
+  name = "Cheats"
+  url = "cheats/"
+
